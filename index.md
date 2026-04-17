@@ -4,22 +4,27 @@
 <!-- After running the bootstrap, this will contain a full catalog of every article. -->
 
 Last updated: DD.MM.YYYY
-Source: [Your source description]
+Owner: Bilge Hasekioglu — Digital Marketing Team Leda, Justlife
+Source: Slack channel DEB7CQKU6 (paid channel briefings and ad dashboard updates)
 
 ## State
 * [[state.md]] - Compressed current state snapshot. Load this at Step 0 instead of individual files. Regenerated nightly.
 
 ## Workstreams
 
-* [[workstreams/example]] - Replace with your workstreams after bootstrap | Active
+* [[workstreams/meta-ads]] - Meta paid campaigns performance and budget pacing | Active
+* [[workstreams/google-ads]] - Google paid campaigns performance and budget pacing | Active
+* [[workstreams/tiktok-ads]] - TikTok paid campaigns performance and budget pacing | Active
+* [[workstreams/snapchat-ads]] - Snapchat paid campaigns performance and budget pacing | Active
+* [[workstreams/dashboard-reporting]] - Ad dashboard status, data sources, and open issues | Active
 
 ## People
 
-* [[people/example]] - Replace with your team after bootstrap | Active
+* [[people/bilge]] - Digital Marketing, Paid Channels — Meta, Google, TikTok, Snapchat, dashboards | Active
 
 ## Experiments
 
-* [[experiments/example]] - Replace with your experiments after bootstrap | Active
+* [[experiments/example]] - Replace with active ad experiments after bootstrap | Active
 
 ## Decisions
 

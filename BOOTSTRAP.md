@@ -9,16 +9,10 @@ You are doing a one-time bootstrap job. You will populate this repo with a struc
 ## STEP 1 — CONFIGURE
 
 <!-- CUSTOMIZE: Set your data source -->
-**Primary source:** Slack channel `YOUR_CHANNEL_ID`
+**Primary source:** Slack channel `DEB7CQKU6`
 **Date range:** Fetch all messages from `YYYY-MM-DD` onwards
-**Source type:** Daily briefings / standup updates / operational notes
-
-<!-- CUSTOMIZE: If not using Slack, replace Step 3 below with your data source.
-Examples:
-- "Read the last 30 messages from my Apple Notes"
-- "Read the Google Doc at [URL]"
-- "I'll paste my meeting notes below: [paste]"
--->
+**Source type:** Daily paid channel briefings, ad dashboard updates, campaign performance notes
+**Owner:** Bilge Hasekioglu — Digital Marketing Team Leda, Justlife
 
 ## STEP 2 — CREATE FOLDER STRUCTURE
 
@@ -28,44 +22,27 @@ mkdir -p workstreams people experiments decisions metrics
 
 ## STEP 3 — FETCH SOURCE MATERIAL
 
-Use the Slack MCP tool to read channel `YOUR_CHANNEL_ID`. Fetch all messages using pagination until you have everything from your start date onwards. These are your source of truth. Do not invent or assume anything not explicitly stated in these messages.
-
-<!-- CUSTOMIZE: If using a different source, replace this step. The key requirement is that you end up with a chronological record of decisions, updates, and context. -->
+Use the Slack MCP tool to read channel `DEB7CQKU6`. Fetch all messages using pagination until you have everything from your start date onwards. These are your source of truth. Do not invent or assume anything not explicitly stated in these messages.
 
 ## STEP 4 — CREATE ARTICLES
 
 For each category below, extract everything relevant from the source history and write structured articles. Use only what appears in the source. Be specific. Include real numbers. Every article must have YAML frontmatter, content body, and a Backlinks section.
 
 ### Workstreams
-<!-- CUSTOMIZE: List your workstreams. Examples: -->
 
-**workstreams/[name].md** — Include: current status, active campaigns or initiatives, key metrics, blockers, open items. Key people involved.
-
-<!-- Add one entry per workstream. Be specific about what to extract:
-workstreams/product-launch.md — Include: launch timeline, feature list, blockers, go/no-go criteria, QA status. Key people: [names].
-workstreams/growth.md — Include: channel performance, CAC by channel, active experiments, weekly targets. Key people: [names].
-workstreams/partnerships.md — Include: active deals, pipeline status, revenue share terms, open negotiations. Key people: [names].
--->
+**workstreams/meta-ads.md** — Include: campaign status, spend, ROAS, CPA, active ad sets, creative performance, budget pacing, blockers. Key people: Bilge.
+**workstreams/google-ads.md** — Include: campaign status, spend, ROAS, CPA, keyword performance, quality scores, budget pacing, blockers. Key people: Bilge.
+**workstreams/tiktok-ads.md** — Include: campaign status, spend, CPA, creative performance, audience performance, budget pacing. Key people: Bilge.
+**workstreams/snapchat-ads.md** — Include: campaign status, spend, CPA, creative performance, budget pacing. Key people: Bilge.
+**workstreams/dashboard-reporting.md** — Include: current dashboard status, data sources connected, metrics tracked, open issues, requested improvements.
 
 ### People
-<!-- CUSTOMIZE: List the people to track. Examples: -->
 
-**people/[name].md** — Include: role, ownership areas, all open items assigned to them across all source messages, delivery patterns (items carried over multiple days), bandwidth flags.
-
-<!-- Add one entry per person:
-people/alice.md — Include: role (engineering lead), ownership areas (API, infrastructure), open items, sprint commitments vs delivery.
-people/bob.md — Include: role (product manager), ownership areas (roadmap, stakeholder comms), open items, decision patterns.
--->
+**people/bilge.md** — Include: role (Digital Marketing, Paid Channels), ownership areas (Meta, Google, TikTok, Snapchat ads, dashboards), all open items, decisions made.
 
 ### Experiments
-<!-- CUSTOMIZE: List any active or recent experiments. Examples: -->
 
-**experiments/[name].md** — Include: hypothesis, mechanic, result (with numbers), status (Active / Resolved), next steps.
-
-<!-- Add one entry per experiment:
-experiments/pricing-test-q1.md — Include: hypothesis (higher price = same conversion), variant details, conversion numbers, revenue impact, decision made.
-experiments/onboarding-flow-v2.md — Include: hypothesis (shorter flow = higher activation), funnel metrics, drop-off rates, status.
--->
+**experiments/[name].md** — Include: hypothesis, channel tested (Meta/Google/TikTok/Snapchat), mechanic (creative variant, audience, bid strategy, budget), result (with CPA/ROAS/CTR numbers), status (Active / Resolved), next steps.
 
 ### Decisions Log
 

@@ -26,7 +26,11 @@ generated_by: evening-briefing
 ## Workstream Status
 | Workstream | Status | Last Signal | Watch |
 |---|---|---|---|
-| example | Replace after bootstrap | DD.MM.YYYY | OK |
+| meta-ads | Replace after bootstrap | DD.MM.YYYY | OK |
+| google-ads | Replace after bootstrap | DD.MM.YYYY | OK |
+| tiktok-ads | Replace after bootstrap | DD.MM.YYYY | OK |
+| snapchat-ads | Replace after bootstrap | DD.MM.YYYY | OK |
+| dashboard-reporting | Replace after bootstrap | DD.MM.YYYY | OK |
 
 ## Open Items
 | Item | Owner | Status | Days Open |
