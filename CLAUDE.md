@@ -6,9 +6,9 @@ This wiki is built for agents, not humans. It compiles operational knowledge fro
 
 ## Owner
 
-<!-- CUSTOMIZE: Replace with your information -->
-Your Name, Your Role, Your Company. Location.
-Primary source channel: YOUR_CHANNEL_ID
+Bilge Hasekioglu, Digital Marketing Team Leda, Justlife.
+Primary focus: Paid channel ad dashboards.
+Primary source channel: DEB7CQKU6 (Slack)
 
 ## Article format
 
